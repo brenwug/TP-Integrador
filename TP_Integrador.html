@@ -12,43 +12,103 @@
   </head>
   <body>
 
+    <!-- <div class="container-fluid"> -->
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-md bgNavbar">
-        <div class="container-fluid">
-            <div class="text-light margenizq">
-            <img src="codoacodo.png" alt="codoacodo" width="140" height="80" margin-left=50px>
-            Conf Bs As
+        
+        <nav class="navbar navbar-expand-md bgNavbar">
+            <div class="container-fluid">
+                <div class="text-light margenizq">
+                <img src="codoacodo.png" alt="codoacodo" width="140" height="80" margin-left=50px>
+                Conf Bs As
+                </div>
+                
+                <div class="align-content-end marginder">
+                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Comprar tickets</a>
+                    </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+
+        <!-- Container Conf Bs As -->
+        <div class="ba1">
+            <div id="tarjeta1">
+            <div class="tarjeta">
+                <div class="card" style="width: 36rem; border: 0rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Conf Bs As</h5>
+                    <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <div class="botones">
+                        <a href="#" class="btn btn-transparent rounded border-light text-light">Quiero ser orador</a>
+                        <a href="#" class="btn botonverde rounded text-light">Comprar tickets</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             </div>
             
-            <div class="align-content-end marginder">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#">La conferencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Los oradores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-success" href="#">Comprar tickets</a>
-                </li>
-                </ul>
+        </div>
+
+        <!-- Conoce a los oradores -->
+        <p></p>
+        <div style="text-align: center; font-size: 15px;">
+            CONOCE A LOS <h2>ORADORES</h2>
+        </div>
+
+
+        <!-- TARJETAS ORADORES -->
+
+        <div class="tarjetasoradores row justify-content-center">
+            <div class="card" style="width: 20rem;">
+                <img src="steve.jpg" class="card-img-top" alt="steve">
+                <div class="card-body">
+                <a href="#" class="btn btn-warning btn-sm">JavaScript</a>
+                <a href="#" class="btn botonReact btn-sm">React</a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
+            <div class="card" style="width: 20rem;">
+                <img src="bill.jpg" class="card-img-top" alt="bill">
+                <div class="card-body">
+                <a href="#" class="btn btn-warning">JavaScript</a>
+                <a href="#" class="btn botonReact">React</a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="ada.jpeg" class="card-img-top" alt="ada">
+                <div class="card-body">
+                <a href="#" class="btn btn-warning">JavaScript</a>
+                <a href="#" class="btn btn-primary">React</a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <!-- Container Conf Bs As -->
-    <div class="container-fluid">
-        
-    </div>
 
+
+            
+    
 
     
     <!-- Optional JavaScript; choose one of the two! -->

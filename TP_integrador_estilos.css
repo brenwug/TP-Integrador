@@ -13,4 +13,65 @@
     font-size: 18px;
 }
 
+.ba1 {
+    background-image: url(ba1.jpg);
+    background-position: center; /* Centrada*/
+    background-attachment: contain; /* dentro del contenedor*/
+    background-size: cover; /*No se agrande*/
+    display: flex;
+    flex-flow: column nowrap;
+    height: 35rem;
+       
+}
+
+#tarjeta1 {
+    height: 35rem;
+    background:rgba(0,0,0,0.6);
+    }
+
+.card {
+    background-color: transparent;
+    color: white;
+    display: flex;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.card-title {
+    text-align: end;
+    font-size: 32px;
+}
+
+.card-text {
+    text-align: right;
+}
+
+.botonverde {
+    background-color: #27a844;
+    margin: 0px 15px;
+    
+}
+
+.moverbotones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botonReact {
+    background-color: #17a2b9;
+    text-decoration-style: solid;
+    
+}
+
+
 
